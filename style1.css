@@ -1,0 +1,182 @@
+.contenedor {
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+@media (max-width: 320px) {
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+  }
+     
+.caja1 {
+    background-color: red;
+    color: red;
+    height: 100px;
+    width: 200px;
+    }
+    
+.caja2 {
+        background-color: green;
+        color: green;
+        height: 100px;
+        width: 200px;
+    }
+    
+.caja3 {
+        background-color: blue;
+        height: 100px;
+        width: 200px;
+        color: blue;
+    }   
+} 
+
+@media (min-width:321px) and (max-width:768px) {
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.caja1 {
+    background-color: red;
+    color: red;
+    height: 100px;
+    width: 200px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    }
+
+.caja2 {
+    background-color: green;
+    color: green;
+    height: 100px;
+    width: 200px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    }
+
+.caja3 {
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    color: blue;
+    grid-column-start: 3;
+    grid-row-start: 1;    
+    }
+
+.caja4 {
+    background-color: violet;
+    height: 100px;
+    width: 200px;
+    color: violet;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    }
+
+.caja5 {
+    background-color: orange;
+    height: 100px;
+    width: 200px;
+    color: orange;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    }
+
+.caja6 {
+    background-color: black;
+    height: 100px;
+    width: 200px;
+    color: black;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    }
+}
+
+
+@media (min-width: 769px) {
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.caja1 {
+        background-color: red;
+        color: red;
+        height: 100px;
+        width: 200px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        }
+    
+.caja2 {
+        background-color: green;
+        color: green;
+        height: 100px;
+        width: 200px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        }
+    
+.caja3 {
+        background-color: blue;
+        height: 100px;
+        width: 200px;
+        color: blue;
+        grid-column-start: 3;
+        grid-row-start: 1;    
+        }
+    
+.caja4 {
+        background-color: violet;
+        height: 100px;
+        width: 200px;
+        color: violet;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        }
+    
+.caja5 {
+        background-color: orange;
+        height: 100px;
+        width: 200px;
+        color: orange;
+        grid-column-start: 2;
+        grid-row-start: 2;
+        }
+    
+.caja6 {
+        background-color: black;
+        height: 100px;
+        width: 200px;
+        color: black;
+        grid-column-start: 3;
+        grid-row-start: 2;
+        }
+
+.caja7 {
+    background-color: yellow;
+    height: 100px;
+    width: 200px;
+    color: yellow;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    }
+
+.caja8 {
+    background-color: lightblue;
+    height: 100px;
+    width: 200px;
+    color: lightblue;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    }
+
+.caja9 {
+    background-color: fuchsia;
+    height: 100px;
+    width: 200px;
+    color: fuchsia;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    }
+}
